@@ -1,0 +1,78 @@
+<resources>
+    <!-- General string resources-->
+    <string name="app_name">CookHelper</string>
+    <string name="team_name">Team QWERTY123</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Drawer string resources-->
+    <string name="recipe_book_title">Recipe Book</string>
+    <string name="advanced_search_title">Advanced Search</string>
+    <string name="help_title">Help</string>
+
+    <!-- View Recipe string resources -->
+    <string name="edit_button_text">Edit</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="steps_title">Steps</string>
+
+    <!-- Edit Recipe string resources-->
+    <string name="save_button_text">Save</string>
+    <string name="instruction_hint">Enter instruction</string>
+    <string name="add_step_button_text">+</string>
+    <string name="delete_button_text">-</string>
+
+    <!-- Advanced Search string resources -->
+    <string name="recipe_name_hint">Recipe name</string>
+    <string name="ingredient_hint">Ingredients</string>
+    <string name="type_hint">Meal type</string>
+    <string name="category_hint">Cultural category</string>
+    <string name="prep_time_hint">Max prep time</string>
+    <string name="search_button_text">Search</string>
+
+    <!-- Help string resources -->
+ <string name="help_title_text">Help</string>
+    <string name="help_introduction">Welcome to CookHelper, your best friend for managing your favorite recipes. CookHelper allows you to create, edit and store recipes and all their important details.</string>
+    <string name="help_recipe_book">Recipe Book</string>
+    <string name="help_recipe_book_header">Recipe Book</string>
+    <string name="help_recipe_book_description">From the navigation drawer, you can access your Recipe Book where it will store your collection of recipes in a list. From here, you\'ll be able to add, edit, delete and view your recipes.</string>
+    <string name="help_add_recipe_header">How Do I Add A Recipe?</string>
+    <string name="help_add_recipe_description">A floating action button with the + sign in the bottom right-hand corner is available from any menu item chosen from the navigation drawer. \n\nYou\'ll be able to enter the recipe name, a maximum preparation time, a cultural category, and a meal type. \n\nTo add ingredients, prefix each ingredient name with the hashtag symbol # when writing the steps for your recipe. \n\nUse an underscore to specify an ingredient, cultural category or meal type that is more than one word. \n\neg. Add #milk, #butter and #baking_soda \n\nTo add or remove a step, press the + or - button respectively.</string>
+    <string name="help_view_recipe_header">How Do I View A Recipe?</string>
+    <string name="help_view_recipe_description">In Recipe Book, tap the recipe from the list of recipes and you\'ll be able to view the recipe and its content.</string>
+    <string name="help_edit_recipe_header">How Do I Edit A Recipe?</string>
+    <string name="help_edit_recipe_description">In Recipe Book you can, \n\n1) Select a recipe and click the Edit button. \n\n2) Press down on the chosen recipe and a dialog will appear with an option to edit.</string>
+    <string name="help_delete_recipe_header">How Do I Delete A Recipe?</string>
+    <string name="help_delete_recipe_description">In Recipe Book, press down on the chosen recipe and a dialog will appear with an option to delete.</string>
+    <string name="help_search_recipe_header">How Do I Search For A Recipe?</string>
+    <string name="help_search_recipe_description">From the navigation drawer, you can access Advanced Search.\n\nThe following search fields are: recipe name, cultural category, meal type, maximum preparation time, and ingredients. Specify at least one or more of these fields and click Search. \n\nWhen searching by ingredients, the options to include and exclude ingredients can be achieved by using the special symbols: &amp; (include), - (exclude) and + (optional). \neg. Tomato &amp;Cheese +bacon -cucumber will search for recipes that contain both tomatoes and cheese, that may contain bacon, but not cucumber.\n\nAny results that match the query will display a list of recipes, otherwise it will indicate that no recipes have been found.\n\n</string>
+
+    <!-- Constant strings for intent extras -->
+    <string name="recipe_index_extra">recipe_index</string>
+    <string name="recipe_name_extra">recipe_name</string>
+
+    <!-- Save recipe Resources -->
+    <string name="recipe_book_filename">recipes.json</string>
+
+    <!-- temporary resources for debug or placeholding -->
+
+    <string-array name="meal_types">
+        <item>Main dish</item>
+        <item>Appetizer</item>
+        <item>Dessert</item>
+        <item>Lunch</item>
+        <item>Breakfast</item>
+    </string-array>
+
+    <string-array name="cultural_categories">
+        <item>Italian</item>
+        <item>Asian</item>
+        <item>Mexican</item>
+        <item>Indian</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Canadian</item>
+    </string-array>
+</resources>

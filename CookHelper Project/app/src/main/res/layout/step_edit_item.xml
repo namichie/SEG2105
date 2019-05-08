@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/SEI_instructions_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/SEI_delete_step_button"
+        android:hint="@string/instruction_hint"
+        android:layout_toLeftOf="@+id/SEI_delete_step_button"/>
+
+    <Button
+        style="@style/StandardBody"
+        android:id="@+id/SEI_delete_step_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SEI_instructions_field"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/delete_button_text"
+        />
+</RelativeLayout>

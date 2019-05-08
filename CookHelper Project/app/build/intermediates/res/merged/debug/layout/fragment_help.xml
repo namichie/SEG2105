@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/H_help_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_title_text"/>
+
+            <TextView
+                android:id="@+id/H_help_introduction"
+                style="@style/HelpBodyStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_introduction"/>
+
+            <TextView
+                android:id="@+id/H_help_recipe_book_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_recipe_book_header"/>
+
+            <TextView
+                android:id="@+id/H_help_recipe_book_content"
+                style="@style/HelpBodyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_recipe_book_description"/>
+
+            <TextView
+                android:id="@+id/H_help_add_recipe_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_add_recipe_header"/>
+
+            <TextView
+                android:id="@+id/H_help_add_recipe_content"
+                style="@style/HelpBodyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_add_recipe_description"/>
+
+            <TextView
+                android:id="@+id/H_help_view_recipe_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_view_recipe_header"/>
+
+            <TextView
+                android:id="@+id/H_help_view_recipe_content"
+                style="@style/HelpBodyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_view_recipe_description"/>
+
+            <TextView
+                android:id="@+id/H_help_edit_recipe_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_edit_recipe_header"/>
+
+            <TextView
+                android:id="@+id/H_help_edit_recipe_content"
+                style="@style/HelpBodyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_edit_recipe_description"/>
+
+            <TextView
+                android:id="@+id/H_help_delete_recipe_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_delete_recipe_header"/>
+
+            <TextView
+                android:id="@+id/H_help_delete_recipe_content"
+                style="@style/HelpBodyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_delete_recipe_description"/>
+
+
+            <TextView
+                android:id="@+id/H_help_search_recipe_title"
+                style="@style/HelpTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_search_recipe_header"/>
+
+            <TextView
+                android:id="@+id/H_help_search_recipe_content"
+                style="@style/HelpBodyStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:linksClickable="false"
+                android:text="@string/help_search_recipe_description"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

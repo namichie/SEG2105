@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qwerty123.cookhelper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/frying_pan"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.qwerty123.cookhelper.View.Activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.qwerty123.cookhelper.View.Activities.RecipeDetailViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qwerty123.cookhelper.View.Activities.RecipeEditActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.qwerty123.cookhelper.View.Activities.SearchResultActivity" >
+        </activity>
+    </application>
+
+</manifest>
